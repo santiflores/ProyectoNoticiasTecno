@@ -1,0 +1,242 @@
+body{
+	margin: 0;
+	font-family: Century Gothic;
+	font-style: normal;
+	background-color: #f1f5f5;
+}
+.hrdedrop{
+	margin: 10px;
+}
+.dropdown-menu{
+	font-size: 20px;
+}
+#navbarNavDropdown{
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 20px;
+}
+.navyo{
+	height: 90px;
+}
+.marca{
+	margin-right: 30px;
+}
+@media only screen and (max-width: 991px){
+	#navbarNavDropdown{
+		background-color: #fff;
+		font-size: 10px;
+	}
+	.dropdown-menu{
+		border: 0px;
+	}
+	#navbarNavDropdown ul li a{
+		color: #000;
+	}
+}
+.seccionrelevante{
+	background: #141829;
+	height: 575px;
+	padding: 25px;
+	width: 100%;
+	padding: 75px 25px 75px 25px;
+	color: #fff;
+	box-shadow: 0 0 15px 0 #7D7D7D;
+	margin-bottom: 8px;
+
+}
+.seccionrelevanteinside{
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:25px;
+	grid-auto-rows: 200px;
+}
+.noticiarel{
+		background: #1C2840;
+		display: grid;
+		grid-template-rows: 2fr 1fr
+}
+.noticiarelg{
+	background: #1C2840;
+	grid-column: 3/5;
+	grid-row:  1/3;
+	display: grid;
+	grid-template-rows: 2fr 1fr
+}
+.linklindoblanco{
+	text-decoration: none;
+	color: #fff
+}
+.linklindoblanco:hover{
+	text-decoration: none;
+	color: #fff
+}
+.linklindonegro{
+	text-decoration: none;
+	color: #000
+}
+.linklindonegro:hover{
+	text-decoration: none;
+	color: #000
+}
+
+@media only screen and (max-width: 1350px) {
+		.seccionrelevanteinside{
+			width: 1150px;
+		}
+	}
+@media only screen and (max-width: 1200px){
+	.seccionrelevanteinside{
+		width: 1024px;
+	}
+}
+@media only screen and (max-width: 1075px){
+	.seccionrelevanteinside{
+		width: 768px;
+		grid-template-columns: 1fr 1fr;
+	}
+	.seccionrelevante{
+		height: auto;
+	}
+	.noticiarelg{
+		grid-row: 3;
+		grid-column: 1/3;
+	}
+}
+@media only screen and (max-width: 820px){
+	.seccionrelevanteinside{
+		width: 100%;
+		display: block;
+	}
+	.noticiarel{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 25px;
+	}
+	.noticiarelg{
+		width: 100%;
+		height: 200px;
+		margin-bottom: 25px
+	}
+}
+.noticiasrecientes{
+	padding: 0 25px 0 25px
+}
+.divind{
+	margin: 0 auto 2px auto;
+	background-color: #fff;
+	width: 950px;
+	height: 300px;
+	border-bottom: 1px solid #f1f5f5;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+@media only screen and (max-width: 1000px){
+	.divind{
+		width: 100%;
+	}
+}
+.cuerponoticias{
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+	padding: 25px;
+}
+.gridnoticias{
+	margin: 0 auto 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1em;
+	grid-auto-rows: 200px;
+}
+.titulo{
+	margin: 1em auto 1em auto;
+	padding-left: 2em;
+	font-weight: 550;
+	font-size: 35px;
+	grid-column: 1/4;
+	background: #f1f5f5;
+}
+.gridnoticias > div{
+	background: #eee;
+	border: 1px solid #000;
+}
+.gridnoticias > div:nth-child(odd){
+	background: #ddd;
+}
+.noticia{
+
+}
+.sbys{
+	display: grid;
+	grid-template-columns: 2fr 1fr
+}
+.topbot{
+	display: grid;
+	grid-auto-rows: 3fr 2fr;
+}
+.modooscuro{
+  grid-column:1/3;
+  grid-row: 1/3;
+}
+.fotonoticia{
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+.headingsnoticias{
+	padding: 10px
+}
+.headingsnoticias b{
+	font-size: 20px
+}
+@media only screen and(max-width:1350px;){
+	.cuerponoticias{
+		width: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+}
+@media only screen and (max-width: 1200px){
+	.gridnoticias{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.gridnoticias{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 820px){
+	.gridnoticias{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.noticia{
+		height: 200px;
+		margin-bottom: 25px;
+	}
+}
+.piedepag{
+	width: 100%;
+	background-color: #343a40;
+	height: 100px;
+	color: #fff;
+	font-family: century Gothic;
+}
+.contacto{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contacto h1{
+	font-size: 25px;
+	font-weight: 1000;
+}
+.infocontacto{
+	text-align: center;
+	font-size: 20px;
+}
